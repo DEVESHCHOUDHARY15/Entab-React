@@ -1,12 +1,13 @@
-function App() {
+import MotionDrawer from "./components/MotionDrawer";
+import DropDownMenu from "./components/DropDownMenu";
 
+function App() {
   return (
     <>
-     <div>
-      <h1>Hello World</h1>
-     </div>
+      <MotionDrawer />
+      <DropDownMenu />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
